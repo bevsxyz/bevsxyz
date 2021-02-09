@@ -1,0 +1,16 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  image:
+    name: klakegg/hugo:ext-alpine
+    entrypoint : ['']
+  before_script:
+    - git submodule update --init --recursive
+  script:
+    - hugo --gc --minify
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
