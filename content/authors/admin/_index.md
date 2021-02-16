@@ -51,6 +51,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/chain-ed-reaction
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/chain-ed-reaction
 - icon: linkedin
   icon_pack: fab
   link: https://in.linkedin.com/in/bevan-stanely/
