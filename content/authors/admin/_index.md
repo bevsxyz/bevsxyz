@@ -18,7 +18,7 @@ organizations:
   url: "https://www.iisc.ac.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am inspire by complex systems. I see a lot of them. I am aiming to understand them better using mathematical and computational approach. I hope in time I get to play with some of the more advanced questions in Physics as well.
+bio: I am a budding scientist, trained in biology. I have been fortunate to see the world around me as an amalgam of levels of complex systems resulting in emergent behaviour. Using mathematical and computational approach I believe that I will be able to figure out the micro-rules governing the different systems.
 
 interests:
 - Complex Systems
