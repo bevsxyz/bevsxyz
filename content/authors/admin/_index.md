@@ -44,22 +44,22 @@ social:
 #  link: 'mailto:bevanstanely@iisc.ac.in'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/8ev_Ash
+  link: https://twitter.com/bevsxyz
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/chain-ed-reaction
+  link: https://github.com/bevsxyz
 - icon: gitlab
   icon_pack: fab
-  link: https://gitlab.com/chain-ed-reaction
+  link: https://gitlab.com/bevsxyz
 - icon: linkedin
   icon_pack: fab
   link: https://in.linkedin.com/in/bevan-stanely/
 - icon: instagram
   icon_pack: fab
-  link: https://www.instagram.com/chain_ed_reaction/
+  link: https://www.instagram.com/bevsxyz
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
