@@ -10,7 +10,7 @@ categories:
 date: "2021-02-16T08:00:00+05:30"
 ---
 
-A piece that came to me, when I was alone at break of the dawn. Depression is hard on it's own; it is harder when people around you wanna help you but their idea of help is not what you need.
+A piece that came to me when I was alone at the break of the dawn. Depression is hard on its own; it is more challenging when people around you want help, but their support idea is not what you need.
 
 When I look inside of me,
 
@@ -22,7 +22,7 @@ My heart yearns to console him,
 
 to say it's alright,
 
-this is just a phase..
+this is just a phase...
 
 Alas! all I feel is numbness,
 
