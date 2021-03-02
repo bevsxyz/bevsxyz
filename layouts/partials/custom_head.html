@@ -1,0 +1,17 @@
+{{ if or .Params.thebe site.Params.thebe }}
+<!-- Configure and load Thebe !-->
+<script type="text/x-thebe-config">
+    {
+        bootstrap: true,
+        requestKernel: true,
+        binderOptions: {
+            repo: 'bevsxyz/blank',
+            ref: 'master',
+        },
+        kernelOptions: {
+            name: 'python3',
+        }
+    }
+</script>
+<script src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+{{ end }}
