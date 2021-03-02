@@ -11,8 +11,8 @@ math: true
 thebe: true
 ---
 
-Recently I have been trying to up my game in programming and had started reading this book.  I came across an exercise that I thought was cool—so sharing it here.
-The question is this, given three inputs - m (month), d (day), and y (year), find the day of the week it falls on. And they go on to give a neat formula for the Gregorian calendar.
+Recently I have been trying to up my game in programming and had started reading this [book](https://introcs.cs.princeton.edu/java/home/).  I came across an exercise that I thought was cool—so sharing it here.
+The question is this, given three inputs - d (day)m, (month), and y (year), find the day of the week it falls on. And they go on to give a neat formula for the Gregorian calendar.
 
 $$
 y_0 = y - (14 - m) / 12
