@@ -17,6 +17,12 @@ autolink = true
 #   2: formspree.io
 email_form = 2
 
+[content.form]
+provider = "formspree"
+
+  [content.form.formspree]
+  id = "mdopkkyq"
+
 # Netlify form settings.
 [netlify]
   captcha = false  # Enable CAPTCHA challenge to reduce spam?

@@ -31,9 +31,9 @@ Well, it is pretty easy to do the calculations when you have the formula. But fo
 
 So here goes my simple python implementation:
 
-{{% alert note %}}
+{{% callout note %}}
 After you click run it may take a minute to get started!
-{{% /alert %}}
+{{% /callout %}}
 
 <pre data-executable>
 def dayOfWeek(d, m, y):
