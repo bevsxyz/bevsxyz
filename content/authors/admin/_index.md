@@ -63,7 +63,7 @@ social:
   link: https://www.instagram.com/bevsxyz
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
+- icon: cv-square
   icon_pack: ai
   link: files/cv.pdf
 
