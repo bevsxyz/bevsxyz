@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Bev's personal website"
 
 ############################
 ## Site Features
@@ -265,8 +265,8 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
-  api_key = ""
+  engine = 3
+  api_key = "pk.eyJ1IjoiYmV2c3h5eiIsImEiOiJja3FzaHRzcWoxN3dlMm9vMTh6czluanNlIn0.Ci0Oyyv0dtD8JhpdHjw6BQ"
   zoom = 15
 
 ############################
