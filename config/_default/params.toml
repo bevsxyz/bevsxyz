@@ -68,6 +68,10 @@ math = false
 #   If false, you can enable diagrams on a per page basis as needed.
 diagram = false
 
+# Enable binder support for interative code? true/false
+#   If false, you can enable binder on a per page basis as needed.
+binder = false
+
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)

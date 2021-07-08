@@ -1,15 +1,26 @@
-{{ if or .Params.thebe site.Params.thebe }}
+{{ $binder := .Params.binder }}
+{{ if or $binder.attach site.Params.binder }}
 <!-- Configure and load Thebe !-->
 <script type="text/x-thebe-config">
     {
         bootstrap: true,
         requestKernel: true,
+        predefinedOutput: false,
+        outputSelector: '[data-output]',
         binderOptions: {
-            repo: 'binder-examples/requirements',
-            ref: 'master',
+            repo: '{{ $binder.repo | default "binder-examples/requirements" }}',
+            ref: '{{ $binder.branch | default "master" }}',
+            binderUrl: "https://mybinder.org",
+            repoProvider: '{{ $binder.repoProvider | default "github" }}',
+            savedSession: {
+                enabled: true,
+                maxAge: 86400,
+                storagePrefix: "thebe-binder-",
+            }
         },
         kernelOptions: {
-            name: 'python3',
+            name: "{{ $binder.kernel | default "python3" }}",
+            kernelName: "{{ $binder.kernel | default "python3" }}",
         }
     }
 </script>

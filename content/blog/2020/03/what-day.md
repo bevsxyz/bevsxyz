@@ -8,7 +8,8 @@ categories:
 - code
 date: "2021-03-02T08:00:00+05:30"
 math: true
-thebe: true
+binder:
+    attach: true
 ---
 
 Recently I have been trying to up my game in programming and had started reading this [book](https://introcs.cs.princeton.edu/java/home/).  I came across an exercise that I thought was cool—so sharing it here.
@@ -45,3 +46,5 @@ def dayOfWeek(d, m, y):
     print(days[d_0])
 dayOfWeek(1,3,2021)
 </pre>
+
+<pre data-output> Monday </pre>
