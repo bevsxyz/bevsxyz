@@ -61,9 +61,9 @@ They are as follows.
 
 ## Results
 
-{{< figure src="fitness.png" caption="Comparison of Optimization Fitness" numbered="true" >}}
+{{< figure src="fitness.webp" caption="Comparison of Optimization Fitness" numbered="true" >}}
 
-{{< figure src="speed_up.png" caption="Comparison of SpeedUps" numbered="true" >}}
+{{< figure src="speed_up.webp" caption="Comparison of SpeedUps" numbered="true" >}}
 
 We find that MRG32k3a GPU RNG with 100 iterations and four blocks of GPU threads o gives the best optimization and speedup.
 
