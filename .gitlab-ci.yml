@@ -8,7 +8,7 @@ pages:
   before_script:
     - git submodule update --init --recursive
   script:
-    - hugo --gc --minify
+    - hugo --gc --minify && gzip -k -6 $(find public -type f)
   artifacts:
     paths:
       - public
