@@ -8,7 +8,9 @@ pages:
   before_script:
     - git submodule update --init --recursive
   script:
-    - hugo --gc --minify && gzip -k -6 $(find public -type f)
+    - hugo --gc --minify
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
   artifacts:
     paths:
       - public
