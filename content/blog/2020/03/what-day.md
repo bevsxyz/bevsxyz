@@ -47,4 +47,4 @@ def dayOfWeek(d, m, y):
 dayOfWeek(1,3,2021)
 </pre>
 
-<pre data-output> Monday </pre>
+Feel free to play with the code, it's editable!
