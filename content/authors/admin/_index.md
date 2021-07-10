@@ -14,7 +14,7 @@ organizations:
   url: https://www.iisc.ac.in/
 
 # Short bio (displayed in user profile at end of posts)
-bio: An accidental biologist for the time being. I love to fantasize about duplicating the complex biological systems outside of biology.
+bio: An accidental biologist for the time being. I love to fantasize about duplicating complex biological systems outside of biology.
 
 # Interests to show in About widget
 interests:
