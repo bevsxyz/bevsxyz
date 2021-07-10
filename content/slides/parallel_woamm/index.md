@@ -117,7 +117,7 @@ THis allows them to explore their local space
 
 ## WOA
 
-![](bubble-net.png)
+![Bubble Net Attacking Strategy](bubble-net.webp)
 
 {{< speaker_note >}}
 
@@ -192,7 +192,7 @@ It is hence suitable for bulk optimizations, so that reuse of state is possible.
 
 ---
 
-![](fitness.png)
+![Comparison of Optimization Fitness](fitness.webp)
 
 {{< speaker_note >}}
 
@@ -210,7 +210,7 @@ But increasing iterations were more effective
 
 ---
 
-![](speed_up.png)
+![Comparison of SpeedUps](speed_up.webp)
 
 {{% fragment %}} MRG32k3a with 100 iterations and 2 blocks appears to give best results {{% /fragment %}}
 
