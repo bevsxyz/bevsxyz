@@ -15,7 +15,7 @@ image:
 links:
     - icon_pack: fab
       icon: dev
-      name: Also on DEV
+      name: DEV
       url: 'https://dev.to/bevsxyz/cuda-gdb-error-with-libtinfo-so-5-289i'
 ---
 
