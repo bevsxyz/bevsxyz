@@ -37,7 +37,7 @@
     {{end}}
 
     <div class="mb-3">
-      <form target="_blank" name="contact" method="POST" {{ $post_action | safeHTMLAttr }} {{ if $use_netlify_form }}netlify-honeypot="welcome-bot"{{end}} {{ if $use_netlify_captcha }}data-netlify-recaptcha="true"{{end}}>
+      <form target="blank" name="contact" method="POST" {{ $post_action | safeHTMLAttr }} {{ if $use_netlify_form }}netlify-honeypot="welcome-bot"{{end}} {{ if $use_netlify_captcha }}data-netlify-recaptcha="true"{{end}}>
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="{{ i18n "contact_name" | default "Name" }}" required>
@@ -59,13 +59,14 @@
           {{ end }}
         {{ else if $use_formspree_form }}
           <div class="d-none">
-            <label>Do not fill this field unless you are a bot: <input type="text" name="_gotcha" style="display:none" /></label>
+            <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
           </div>
           {{ if $use_formspree_captcha }}
             {{ if not $st.Params.content.form.formspree.captcha_key }}
               {{ errorf "You have chosen to use reCAPTCHA for Formspree. Please set your Formspree SITE KEY in the Contact widget or disable reCAPTCHA.\nDocumentation: https://help.formspree.io/hc/en-us/articles/360022811154" }}
             {{ end }}
             <div class="g-recaptcha" data-sitekey="{{ $st.Params.content.form.formspree.captcha_key }}"></div>
+            </br>
           {{ end }}
         {{ end }}
         <button type="submit" class="btn btn-outline-primary px-3 py-2">{{ i18n "contact_send" | default "Send" }}</button>
