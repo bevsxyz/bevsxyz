@@ -21,6 +21,8 @@ content:
     provider: formspree
     formspree:
       id: mdopkkyq
+      captcha: true
+      captcha_key: 6Ldh15EbAAAAAN2PLbToUvshKX-YHtkl4xOL5OcP
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
