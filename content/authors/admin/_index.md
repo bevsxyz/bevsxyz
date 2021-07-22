@@ -78,6 +78,9 @@ highlight_name: true
 user_groups: []
 ---
 
+An accidental biologist for the time being. I love to fantasize about duplicating complex biological systems outside of biology.
+
+{{< spoiler text="Click here to continue reading :book:" >}}
 I come from a small town in Kerala. I am trying to do cool science in less frequented paths.
 
 The complex systems in nature fascinates me.  Their non-linear nature makes them beautiful. My dream is to do my part in figuring out how such beautiful systems work. An extension of the goal is to see how the micro rules I figure out can make equally beautiful and practical systems outside of biology. I prefer not to go down to the molecular level within biology unless there is an opportunity to theorize. It is the complex organisms like bacterial populations, termite mounds, and ant colonies that turns me on.
@@ -85,5 +88,7 @@ The complex systems in nature fascinates me.  Their non-linear nature makes them
 I presently do Agent-Based Models, numerical simulations of non-linear equations, and writing the parallel version of algorithms for GPU.
 
 Am a polyglot, both with human and computer languages. Damn well proud of it.
+
+{{< /spoiler >}}
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/resume.pdf" "newtab" >}}resumé{{< /staticref >}} or {{< icon name="rocket" pack="fas" >}} checkout my {{< staticref "/about/#experience" >}}experience{{< /staticref >}}.
