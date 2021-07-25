@@ -29,4 +29,4 @@ hence each title stands good on its own,
 making order in this list of no particular significance.
 {{% /callout %}}
 
-{{< table src="movie.csv" >}}
+{{< table src="movie.csv" caption="List of Motion Pictures" >}}
