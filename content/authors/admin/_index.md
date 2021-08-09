@@ -50,9 +50,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/bevsxyz
-- icon: gitlab
+- icon: youtube
   icon_pack: fab
-  link: https://gitlab.com/bevsxyz
+  link: https://www.youtube.com/channel/UCvpB3HFINFVoUeblgoqbmxw
 - icon: linkedin
   icon_pack: fab
   link: https://in.linkedin.com/in/bevsxyz/
