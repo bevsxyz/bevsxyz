@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Research Student
     company: Bacterial Ecology & Evolution Lab
-    company_url: https://mcbl.iisc.ac.in/samay-pande/
+    company_url: https://www.redqueenlab.com/ 
     company_logo: org-x
     location: Bengaluru
     date_start: '2020-02-17'
