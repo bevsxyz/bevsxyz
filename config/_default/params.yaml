@@ -5,173 +5,99 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+appearance:
+  theme_day: custom
+  theme_night: custom
+  font: minimal
+  font_size: L
 
 # SEO
 
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: 'bevsxyz'
-
-# Contact (edit or remove options as required)
-
-#email: test@example.org
-#phone: 888 888 88 88
-address:
-  street: Dept. of Microbiology and Cell Biology, IISc
-  city: Bengaluru
-  region: Karnataka
-  postcode: 560039
-  country: India
-  country_code: IND
-coordinates:
-  latitude: 13.023329
-  longitude: 77.563704
-directions: Enter Biological Sciences Building and take the stairs to Dept. of MCB on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-#appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: https://twitter.com/bevsxyz
-#  - icon: skype
-#    icon_pack: fab
-#    name: Skype Me
-#    link: 'skype:echo123?call'
-#  - icon: keybase
-#    icon_pack: fab
-#    name: Chat on Keybase
-#   link: 'https://keybase.io/'
-#  - icon: comments
-#    icon_pack: fas
-#    name: Discuss on Forum
-#   link: 'https://discourse.gohugo.io'
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'Personal Website of Bevan Stanely'
+    twitter: 'bevsxyz'
+  analytics:
+    google_analytics: 'UA-165285623-1'
 
 # Site header
 
-main_menu:
-  enable: true
-  align: l
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: true
+header:
+  navbar:
+    enable: false
+    align: r
+    show_logo: false
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: false
+
+footer:
+  copyright:
+    notice: 'Copyright © {year} Bevan Stanely. This work is licenced under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
 
-highlight: false
-highlight_languages:
-  - r
-math: false
-diagram: false
-privacy_pack: true
-edit_page:
-  repo_url: ''
-  content_dir: ''
-  repo_branch: main
-  editable:
-    page: false
-    post: false
-    book: false
-show_related:
-  book: true
-  page: false
-  post: true
-  project: true
-  publication: true
-  event: true
-reading_time: true
-section_pager: true
-docs_section_pager: true
-sharing: true
-copyright_license:
-  enable: true
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-abstract_length: 135
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 2
-  publication_view: 2
-  talk_view: 2
-breadcrumb:
-  page_types:
-    book: true
-comments:
-  provider: ''
-  commentable:
-    blog: true
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  wowchemy:
-    min_length: 1  # Only the matches whose length exceeds this value will be returned.
-    threshold: 0.3  # Where 0 requires a perfect match and 1 matches anything.
-  algolia:
-    app_id: ''
+features:
+  syntax_highligher:
+    enable: true
+    extra_languages:
+      - r
+      - python
+  math:
+    enable: false
+  privacy_pack:
+    enable: true
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'Mapnik'
     api_key: ''
-    index_name: ''
-    show_logo: false
-  # Enable/disable map in Contact widget.
-  # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-  # a map provider below.
-  # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-  #   https://developers.google.com/maps/documentation/javascript/get-api-key
-  # To use OpenStreetMap tiles, set `map = 2`.
-  # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-  #   https://www.mapbox.com/studio/account/tokens
-  # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-  #
-  # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-map:
-  provider: 'Mapnik'
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: 'UA-165285623-1'
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: false
-icon:
-  pack:
-    ai: false
+    zoom: 15
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

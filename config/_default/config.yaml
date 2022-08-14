@@ -3,9 +3,23 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: bev's xy & z # Website name
+title: "bev's xy & z" # Website name
 baseurl: 'https://bevs.xyz/' # Website URL
-copyright: 'Copyright © {year} Bevan Stanely' # Footer text, e.g. '© {year} Me'
+
+cascade:
+  # Blog post options
+  - _target:
+      path: /blog/**
+    pager: true
+    editable: false
+    reading_time: true
+    commentable: true
+    show_related: true
+    show_breadcrumb: true
+    share: true
+    header:
+      navbar:
+        enable: true
 
 ############################
 ## LANGUAGE
@@ -19,11 +33,11 @@ removePathAccents: true
 ############################
 ## MODULES
 ############################
-
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -41,7 +55,7 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-  blog: '/blog/:year/:month/:filename'
+  blog: '/blog/:year/:month/:slug'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -67,3 +81,7 @@ related:
       weight: 100
     - name: categories
       weight: 70
+security:
+  _merge: deep
+sitemap:
+  _merge: deep
