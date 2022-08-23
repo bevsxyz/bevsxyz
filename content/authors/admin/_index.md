@@ -18,24 +18,24 @@ organizations:
     url: 'https://www.iisc.ac.in/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: An accidental biologist for the time being. I love to fantasize about duplicating complex biological systems outside of biology.
+bio: An aspiring Data Scientist. I enjoy narrating data through storytelling.
 
 # Interests to show in About widget
-interests:
-  - Complex Systems
-  - Parallel Programming
-  - Mathematics
-  - Open Source
+#interests:
+#  - Complex Systems
+#  - Parallel Programming
+#  - Mathematics
+#  - Open Source
 
 # Education to show in About widget
-education:
-  courses:
-  - course: Masters in Microbiology and Cell Biology
-    institution: Indian Institute of Science
-    year: 2022
-  - course: BSc in Biological Sciences
-    institution: Bangalore University
-    year: 2019
+#education:
+#  courses:
+#  - course: Masters in Microbiology and Cell Biology
+#    institution: Indian Institute of Science
+#    year: 2022
+#  - course: BSc in Biological Sciences
+#    institution: Bangalore University
+#    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -62,11 +62,9 @@ social:
     link: https://www.instagram.com/bevsxyz
 ---
 
-An accidental biologist for the time being. I love to fantasize about duplicating complex biological systems outside of biology.
+I am Bevan Stanely, an aspiring Data Scientist who loves storytelling with data. I was a biology research student in my previous life, fiddling with my computational model for bacterial behavior. The most exciting part of my research was putting together a story from my data. Well, that’s what I am pursuing as a career.
 
+I blog here about programming, Linux, and hopefully the science stuff I think is cool(soon enough, I promise). While you are here, could I interest you in a few [projects](/#projects) of mine?
 
-The complex systems in nature fascinates me.  Their non-linear nature makes them beautiful. My dream is to do my part in figuring out how such beautiful systems work. An extension of the goal is to see how the micro rules I figure out can make equally beautiful and practical systems outside of biology. I prefer not to go down to the molecular level within biology unless there is an opportunity to theorize. It is the complex organisms like bacterial populations, termite mounds, and ant colonies that turns me on.
-
-I presently do Agent-Based Models, numerical simulations of non-linear equations, and writing the parallel version of algorithms for GPU.
-
-Am a polyglot, both with human and computer languages. Damn well proud of it.
+The best place to get to know me professionally is my [resume](/files/resume.pdf). [LinkedIn](https://in.linkedin.com/in/bevsxyz/
+) does a fair job as well. Is there something I could help you with as a freelancer? Fill up the contact me form below, and I will get back to you.

@@ -18,6 +18,6 @@ author: admin
 #  css_class: fullscreen
 ---
 
-🐈 Hey! I'm **Bevan Stanely**, an aspiring data scientist in job hunt.
+🐈 Hey! I'm **Bevan Stanely**, an aspiring data scientist.
 
 Check out my [CV](/about/) and blog posts below 🌈

@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Contact
-subtitle: Let's connect!
+#title: Contact
+#subtitle: Let's connect!
 
 content:
   # Automatically link email and phone or display as text?
