@@ -11,10 +11,23 @@ tags:
 categories:
 - datascience
 image:
-  caption: 'Photo Pixabay on [**Pexels**](https://www.pexels.com/photo/battle-black-blur-board-game-260024/)'
+  caption: 'Photo by Pixabay on [**Pexels**](https://www.pexels.com/photo/battle-black-blur-board-game-260024/)'
   focal_point: "Smart"
+links:
+  - icon_pack: fab
+    icon: kaggle
+    name: Kaggle
+    url: https://www.kaggle.com/code/bevsxyz/game-of-thrones/
+  - icon_pack: fab
+    icon: github
+    name: Github
+    url: https://github.com/bevsxyz/bevsxyz/blob/main/projects/GOT/GOT-wordcloud.ipynb
+comment:
+  mastodon:
+    host: qoto.org
+    username: bevsxyz
+    id: 109399795717279616
 ---
-# Game of Thrones: Who spoke the most, and what?
 
 I came across the Game of Thrones script for the first time in the final project of a Python course by Internshala. The idea for the project was to simply find unique words spoken by the characters. I, for one, wanted to explore some visualizations, and here is my attempt at one. We will find the character with the maximum number of lines in the script and create a word cloud. Fairly simple stuff.
 
