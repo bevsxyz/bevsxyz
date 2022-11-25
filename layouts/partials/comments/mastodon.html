@@ -1,0 +1,11 @@
+{{ with .Params.comment.mastodon }}
+<div class="article-content">
+  <h2><span class="fa fa-comment"></span> Comments </h2>
+  <p>You can use a Mastodon account to comment on this article by replying to the associated Mastodon 
+    <a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">
+      toot</a>.</p>
+  <p>
+    <a class="button" href="https://{{ .host }}/interact/{{ .id }}?type=reply"><button id="reply">Reply</button></a>
+  </p>
+</div>
+{{ end }}
