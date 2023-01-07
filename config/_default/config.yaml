@@ -17,9 +17,7 @@ cascade:
     show_related: true
     show_breadcrumb: true
     share: true
-    header:
-      navbar:
-        enable: true
+
 
 ############################
 ## LANGUAGE
@@ -55,6 +53,7 @@ permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
+  portfolio: '/portfolio/:slug/'
   publication_types: '/publication-type/:slug/'
   blog: '/blog/:year/:month/:slug'
 disableAliases: true
@@ -69,6 +68,7 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
+  portfolio: portfolio
   publication_type: publication_types
   author: authors
 markup:

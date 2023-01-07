@@ -10,6 +10,8 @@ tags:
 - visualization
 categories:
 - datascience
+portfolio:
+- datascience
 image:
   caption: 'Photo by Pixabay on [**Pexels**](https://www.pexels.com/photo/battle-black-blur-board-game-260024/)'
   focal_point: "Smart"
