@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: "bev's xy & z" # Website name
-baseurl: 'https://bevs.xyz/' # Website URL
+baseurl: 'https://bevsxyz.github.com/' # Website URL
 
 cascade:
   # Blog post options
