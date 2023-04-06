@@ -64,10 +64,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify \
-          --cleanDestinationDir \
-          --gc \
-          --baseURL "https://bevsxyz.github.io/"
+          hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
